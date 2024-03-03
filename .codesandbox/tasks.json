@@ -4,6 +4,10 @@
     {
       "name": "Install Dependencies",
       "command": "pnpm install"
+    },
+    {
+      "command": "pnpm run build",
+      "name": "pnpm run build"
     }
   ],
 
@@ -16,6 +20,10 @@
       "preview": {
         "port": 5173
       }
+    },
+    {
+      "name": "pnpm run build",
+      "command": "pnpm run build"
     }
   }
 }
